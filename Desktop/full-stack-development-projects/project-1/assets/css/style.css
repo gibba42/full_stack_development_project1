@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Special+Elite&display=swap');
+
+body {
+    font-family: 'Monserrat', sans-serif;
+    color: #111111;
+    background-color: #fff;
+    line-height: 1.6;
+}
+
+:root {
+    --hungary-red: #CD2A3E;
+    --hungary-white: #FFFFFF;
+    --hungary-green: #436F4D;
+}
+
+nav {
+    background-color: var(--hungary-red);
+    color: var(--hungary-white);
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+nav a {
+    display: block;
+    padding: 1em;
+    color: var(--hungary-white);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: var(--hungary-white);
+    color: var(--hungary-red);
+}
