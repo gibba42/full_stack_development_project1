@@ -40,3 +40,16 @@ nav a:hover {
     background-color: var(--hungary-white);
     color: var(--hungary-red);
 }
+
+/* Typewriter style for quotes */
+.typewriter {
+    background-color: #f8f8f8;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    padding: 1.5rem 2rem;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #111;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
