@@ -53,3 +53,80 @@ nav a:hover {
     color: #111;
     box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
 }
+
+/* Timeline */
+/* Size variables */
+:root {
+    --tl-line-w: 6px;
+    --tl-dot: 25px;
+    --tl-dot-border: 4px;
+    --tl-dot-total: calc(var(--tl-dot) + 2 * var(--tl-dot-border));
+}
+
+/* Vertical rule */
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: var(--tl-line-w);
+    margin-left: calc(-1 * var(--tl-line-w) / 2);
+    background: var(--hungary-red);
+    border-radius: 999px;
+}
+
+/* Container around text */
+.container {
+    position: relative;
+    width: 50%;
+    padding: 10px 40px;
+    background: transparent;
+    box-sizing: border-box;
+}
+
+/* Left item placement */
+.left {
+    left: 0;
+}
+
+/* Right item placement */
+.right {
+    left: 50%;
+}
+
+/* Circles on the timeline */
+.container::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: var(--tl-dot);
+    height: var(--tl-dot);
+    background: var(--hungary-white);
+    border: var(--tl-dot-border) solid var(--hungary-red);
+    border-radius: 50%;
+    z-Index: 2;
+}
+
+.left::after {
+    right: calc(-1 * var(--tl-dot-total) / 2);
+}
+
+.right::after {
+    left: calc(-1 * var(--tl-dot-total) / 2);
+}
+
+.content {
+    padding: 20px 30px;
+    background-color: var(--hungary-white);
+    position: relative;
+    border-radius: 6px;
+    z-index: 1;
+}
