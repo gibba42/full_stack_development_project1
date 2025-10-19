@@ -130,3 +130,11 @@ nav a:hover {
     border-radius: 6px;
     z-index: 1;
 }
+
+/* Sixteen points section */
+
+.sixteen-points .point {
+    margin-bottom: 1.2em;
+    padding-bottom: em;
+    border-bottom: 1px;
+}
