@@ -96,6 +96,44 @@ nav a:hover {
     color: var(--hungary-red);
 }
 
+/* Page cards */
+.page-cards {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: var(--hungary-white);
+}
+
+.page-cards h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: var(--hungary-red);
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.card h3 {
+    color: var(--hungary-red);
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    background-color: #fff;
+}
+
 /* Typewriter style for quotes */
 .typewriter {
     background-color: #f8f8f8;
