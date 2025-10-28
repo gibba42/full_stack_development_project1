@@ -131,7 +131,11 @@ nav a:hover {
 }
 
 .expanding-links .tile h3 {
-    color: var(--hungary-white);
+    z-index: 2;
+}
+
+.expanding-links .tile p {
+    z-index: 2;
 }
 
 /* Set widths equally, then expand on hover */
@@ -162,6 +166,7 @@ nav a:hover {
     position: absolute;
     inset: 0;
     background: var(--hungary-red);
+    z-index: 1;
 }
 
 .expanding-links .tile .more {
