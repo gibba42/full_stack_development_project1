@@ -96,6 +96,97 @@ nav a:hover {
     color: var(--hungary-red);
 }
 
+/* Expanding link strip */
+.expanding-links {
+    display: flex;
+    gap: 10px;
+    align-items: stretch;
+    justify-content: stretch;
+    margin: 2rem auto;
+    max-width: 1200px;
+    padding: 0 10px;
+}
+
+.expanding-links .tile {
+    position: relative;
+    flex: 1 1 0;
+    min-height: 220px;
+    border-radius: 12px;
+    overflow: hidden;
+    text-decoration: none;
+    color: var(--hungary-white);
+    outline: none;
+    transition: flex-grow 0.5s ease, transform 0.5s ease;
+}
+
+.expanding-links .tile .tile-content {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    align-content: center;
+    gap: 0.5rem;
+    padding: 1.5rem;
+    text-align: center;
+    pointer-events: none; /* Makes the whole tile a link */
+}
+
+.expanding-links .tile h3 {
+    color: var(--hungary-white);
+}
+
+/* Set widths equally, then expand on hover */
+.expanding-links:hover .tile {
+    flex-grow: 1;
+}
+
+.expanding-links:hover .tile:hover {
+    flex-grow: 3;
+}
+
+.expanding-links .tile:focus {
+    flex-grow: 3;
+}
+
+.expanding-links .tile::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.75);
+    transition: filter 0.4s ease;
+}
+
+.expanding-links .tile::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: var(--hungary-red);
+}
+
+.expanding-links .tile .more {
+    max-width: 4ch;
+    margin: 0 auto;
+    line-height: 1.5;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.4s ease, max-height 0.4s ease;
+}
+
+/* Show more text when expanded */
+.expanding-links:hover .tile:hover .more,
+.expanding-links .tile:focus .more {
+    opacity: 1;
+    max-height: 12rem;
+}
+
+/* Background images for tiles */
+.expanding-links .tile.summary::before {
+    background-image: url('assets/images/black-white-flag-1956.jpg');
+}
+
+
 /* Page cards */
 .page-cards {
     text-align: center;
