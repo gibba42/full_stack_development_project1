@@ -9,7 +9,12 @@ body {
     max-width: 100%;
     overflow-x: hidden;
     margin: 0;
+}
+
+.content {
     padding: 0 40px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 :root {
@@ -32,6 +37,7 @@ body {
 
 .hero img {
     position: absolute;
+    object-position: center bottom;
     top: 0;
     left: 0;
     width: 100%;
@@ -60,11 +66,13 @@ body {
 .hero h1 {
     font-size: 3rem;
     font-family: 'Georgia', serif;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
 }
 
 .hero p {
     font-size: 1.3rem;
     margin: 1rem 0;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
 }
 
 /* Nav bar */
