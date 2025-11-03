@@ -20,3 +20,15 @@ Content is designed to flow naturally, allowing users to easily follow the infor
 | **Revolution ('revolution.html')** | Details the outbreak of the uprising, including the revolutionaries 'Sixteen Points' in collapsible bullet points. |
 | **Aftermath ('aftermath.html')** | Explains the results and reforms following the suppression of the Revolution, including an emedded video. |
 | **Resources ('resources.html')** | Offers links for users to learn more, such as books and archives. Includes an emedded Google Maps iframe with key locations in Budapest related to the Revolution. |
+
+### Manual Testing
+
+| Test | Expected Outcome | Result |
+|------|-------------------|--------|
+| Navigation links | Load correct pages | Passed |
+| Expandable tiles | Expand and show additional text | Passed |
+| External links | Open in new tab | Passed |
+| Video playback | Controlled by user | Passed |
+| Timeline | Alternates correctly | Passed |
+| Collapsible “Sixteen Points” | Expands smoothly | Passed |
+| Google Maps iframe | Shows points of interest | Passed |
