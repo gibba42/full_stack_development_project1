@@ -11,21 +11,32 @@ body {
     margin: 0;
 }
 
+/* Container for page content */
 .content {
-    padding: 0 40px;
+    padding: 0 40px; 
     max-width: 1200px;
-    margin: 0 auto; /* Centres the text */
+    margin: 0 auto;
 }
 
+/* Images in the main body of pages (not hero elements) */
 .content picture,
 .content picture img {
     max-width: 100%;
-    max-height: 600px;
+    max-height: 600px; /* Prevents images from filling the page */
     height: auto;
     display: block;
     margin: 0 auto; /* Centres the image */   
 }
 
+.content video {
+    max-width: 100%;
+    max-height: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Colour variables to save having to refer to the hex codes each time they are used */
 :root {
     --hungary-red: #CD2A3E;
     --hungary-white: #FFFFFF;
@@ -346,8 +357,3 @@ nav a:hover {
     border-bottom: 1px;
 }
 
-/* Videos */
-video {
-    width: 100%;
-    height: auto;
-}
