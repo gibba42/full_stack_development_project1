@@ -21,6 +21,18 @@ Content is designed to flow naturally, allowing users to easily follow the infor
 | **Aftermath ('aftermath.html')** | Explains the results and reforms following the suppression of the Revolution, including an emedded video. |
 | **Resources ('resources.html')** | Offers links for users to learn more, such as books and archives. Includes an emedded Google Maps iframe with key locations in Budapest related to the Revolution. |
 
+## Bugs and Fixes
+
+| Bug | Cause | Fix |
+|-----|-------|-----|
+| Timeline circles misaligned | Incorrect `top` CSS value | Adjusted `transform: translateY(-50%)` |
+| Horizontal scroll bar | Page width exceeded viewport | Added `overflow-x: hidden` to `body` |
+| Tile text compressed | Missing grid alignment | Added `.tile-content { display: grid; align-content: center; }` |
+| Images and videos were taking up too much space on pages | Missing 'max-height CSS value | Added 'max-height: 600px: to 'img' and 'video' |
+| Images and videos were misaligned with other content on pages | Images and videos were not positioned based on 'content' container | Moved 'img' and 'video' css rules under '.content' |
+
+All known issues resolved. No outstanding bugs remain.
+
 ### Manual Testing
 
 | Test | Expected Outcome | Result |
