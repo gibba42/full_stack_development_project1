@@ -42,6 +42,7 @@ git clone https://github.com/gibba42/full_stack_development_project1.git
 | Tile text compressed | Missing grid alignment | Added `.tile-content { display: grid; align-content: center; }` |
 | Images and videos were taking up too much space on pages | Missing 'max-height CSS value | Added 'max-height: 600px: to 'img' and 'video' |
 | Images and videos were misaligned with other content on pages | Images and videos were not positioned based on 'content' container | Moved 'img' and 'video' css rules under '.content' |
+| GitHub repository was struggling to process all changes | Repository was set up incorrectly, the .git folder was created at the Desktop level | Ran git init at the correct level (within the project folder) and then flattened the folder structure to clean empty folders |
 
 All known issues resolved. No outstanding bugs remain.
 
