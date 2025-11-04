@@ -74,7 +74,7 @@ git clone https://github.com/gibba42/full_stack_development_project1.git
 | Images and videos were misaligned with other content on pages | Images and videos were not positioned based on 'content' container | Moved 'img' and 'video' css rules under '.content' |
 | GitHub repository was struggling to process all changes | Repository was set up incorrectly, the .git folder was created at the Desktop level | Ran git init at the correct level (within the project folder) and then flattened the folder structure to clean empty folders |
 
-All known issues resolved. No outstanding bugs remain.
+One outstanding bug remains unfixed. The video on the aftermath page remainings unchanged for 4 seconds after pressing play. This is not a bug with playback, but an issue with the file. There are 4 seconds that should be cut from the start of the video, and this should be trimmed with the appropriate editing tool. 
 
 ### Manual Testing
 
