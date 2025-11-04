@@ -28,6 +28,12 @@ The timeline of key events provides an easy to digest summary of the key events 
 
 ![Timeline](assets/images/timeline.png)
 
+- __Expandable information__
+
+For long lists, headers can be expanded to provide readers with additional information, whilst avoiding clutter on pages.
+
+![Expandable points](assets/images/expandable-points.png)
+
 ## Site Structure
 
 | Page | Description |
