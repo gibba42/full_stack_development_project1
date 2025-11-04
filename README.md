@@ -10,31 +10,32 @@ It's aim is to inform students or other interested parties about a pivitol momen
 Content is designed to flow naturally, allowing users to easily follow the information and find sections they are interested in. 
 
 ## Features
-- __Navigation Bar__
+
+### Navigation Bar
 
 The navigation bar is included on every page and includes links to the Home page, Summary page, Causes page, Revolution page, Aftermath page, and Additional Resources page. It will always show at the top of the view to allow users to easily navigate the website. 
 
 ![Nav Bar](assets/images/nav.png)
 
-- __Hero elements__
+### Hero elements
 
 Each page other than Additional Resources contains a 'hero element' with a background image, a title, and summary text. These are used to grab readers' attention from the start of each page. 
 
 ![Hero element](assets/images/hero.png)
 
-- __Timeline__
+### Timeline
 
 The timeline of key events provides an easy to digest summary of the key events of the Hungarian Revolution.
 
 ![Timeline](assets/images/timeline.png)
 
-- __Expandable information__
+### Expandable information
 
 For long lists, headers can be expanded to provide readers with additional information, whilst avoiding clutter on pages.
 
 ![Expandable points](assets/images/expandable-points.png)
 
-- __Google Map with points of interest__
+### Google Map with points of interest
 
 There is a Google Map iframe on the Additional Resources page that shows users key areas of interest they can visit in Budapest.
 
