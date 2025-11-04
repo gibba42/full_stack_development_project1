@@ -51,13 +51,16 @@ There is a Google Map iframe on the Additional Resources page that shows users k
 | **Aftermath ('aftermath.html')** | Explains the results and reforms following the suppression of the Revolution, including an emedded video. |
 | **Resources ('resources.html')** | Offers links for users to learn more, such as books and archives. Includes an emedded Google Maps iframe with key locations in Budapest related to the Revolution. |
 
-## Deployment Procedure
-All changes should be pushed to GitHub with a useful commit message. Pushes should be small, focusing on one area or change at a time. 
+## Deployment
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down, select the Main branch
+- Once the main branch has been selected, the page will automatically be refreshred with a detailed ribbon display to indicate the successful deployment.
 
 The GitHub repository for this site is:
 https://github.com/gibba42/full_stack_development_project1
 
-The website is hosted publically on GitHub. The link to the index page is:
+The website is hosted publically on GitHub. The live link to the index page is:
 https://gibba42.github.io/full_stack_development_project1/index.html
 
 To run the website locally, clone the following repository:
