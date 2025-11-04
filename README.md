@@ -34,6 +34,12 @@ For long lists, headers can be expanded to provide readers with additional infor
 
 ![Expandable points](assets/images/expandable-points.png)
 
+- __Google Map with points of interest__
+
+There is a Google Map iframe on the Additional Resources page that shows users key areas of interest they can visit in Budapest.
+
+![Map of Budapest](assets/images/budapest-map.png)
+
 ## Site Structure
 
 | Page | Description |
