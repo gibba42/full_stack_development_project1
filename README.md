@@ -14,6 +14,10 @@ Content is designed to flow naturally, allowing users to easily follow the infor
 The navigation bar is included on every page and includes links to the Home page, Summary page, Causes page, Revolution page, Aftermath page, and Additional Resources page. It will always show at the top of the view to allow users to easily navigate the website. 
 ![Nav Bar](assets/images/nav.png)
 
+- __Hero elements__
+Each page other than Additional Resources contains a 'hero element' with a background image, a title, and summary text. These are used to grab readers' attention from the start of each page. 
+![Hero element](assets/images/hero.png)
+
 ## Site Structure
 
 | Page | Description |

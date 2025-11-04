@@ -40,7 +40,7 @@ body {
 :root {
     --hungary-red: #CD2A3E;
     --hungary-white: #FFFFFF;
-    --hungary-green: #436F4D;
+    --hungary-green: #436F4D; /* this is rarely used, as red and green together can cause accessibility issues for colour-blind users */
 }
 
 /* Hero elements */
@@ -57,7 +57,7 @@ body {
 
 .hero img {
     position: absolute;
-    object-position: center bottom;
+    object-position: center;
     top: 0;
     left: 0;
     width: 100%;
