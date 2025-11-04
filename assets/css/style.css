@@ -18,6 +18,14 @@ body {
     margin: 0 auto;
 }
 
+.content figure {
+    text-align: center;
+}
+
+.content figcaption {
+    margin-top: 0.5rem;
+}
+
 /* Images in the main body of pages (not hero elements) */
 .content picture,
 .content picture img {
@@ -350,17 +358,38 @@ nav a:hover {
 }
 
 /* Sixteen points section */
+/* Two-column layout for Sixteen Points + image */
+.points-layout {
+  display: grid;
+  grid-template-columns: 1fr 360px; /* content left, image right */
+  gap: 2rem;
+  align-items: start;
+  margin-top: 1rem;
+}
 
-.sixteen-points .point {
-    margin-bottom: 1.2em;
-    padding-bottom: 0.8em;
-    border-bottom: 1px;
+.points-image figure { margin: 0; }
+.points-image img { 
+    display: block; 
+    width: 100%; 
+    height: auto; 
+}
+
+.points-image figcaption { 
+    font-size: 0.9rem; 
+    margin-top: 0.5rem; 
+    color: #444; 
+}
+
+/* Tidy the list items */
+.points-list .point {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
 }
 
 a {
     color: var(--hungary-red);              
     text-decoration: none; /* Remove default underline */
     font-weight: 600;                       
-    transition: color 0.3s ease, border 0.3s ease;
 }
 
