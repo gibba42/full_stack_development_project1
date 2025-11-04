@@ -90,3 +90,15 @@ One outstanding bug remains unfixed. The video on the aftermath page remainings 
 | Timeline | Alternates correctly | Passed |
 | Collapsible “Sixteen Points” | Expands smoothly | Passed |
 | Google Maps iframe | Shows points of interest | Passed |
+
+### Validator Testing
+
+- HTML
+    - No errors were returned when passing through the official W3C validator
+
+    ![HTML results](assets/images/html-validator-result.png)
+
+- CSS
+    - No errors were returned when passing through the official Jigsaw validator
+
+    ![CSS results](assets/images/css-validator-result.png)
