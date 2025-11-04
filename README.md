@@ -102,3 +102,17 @@ One outstanding bug remains unfixed. The video on the aftermath page remainings 
     - No errors were returned when passing through the official Jigsaw validator
 
     ![CSS results](assets/images/css-validator-result.png)
+
+## Credits
+
+### Content
+
+- The text content was mostly reworded from the Wikipedia and Encyclopedia Britannica articles on the Hungarian Revolution. 
+- All images and videos were taken from Wikimedia commons. 
+
+### Code from tutorials
+
+- Timeline
+    - The timeline element was heavily based on W3schools "How to create a responsive timeline with CSS" tutorial.
+- Expanding links
+    - The expanding tile links on the index page were based on W3schools "CSS Transitions" examples. ChatGPT was used to help combine those examples with text showing on hover and links to other pages. 
