@@ -11,6 +11,10 @@ Content is designed to flow naturally, allowing users to easily follow the infor
 
 ## Features
 
+### Responsive design
+
+The site will resize elements depending on the user's screen size, across moble and desktop resolutions. 
+
 ### Navigation Bar
 
 The navigation bar is included on every page and includes links to the Home page, Summary page, Causes page, Revolution page, Aftermath page, and Additional Resources page. It will always show at the top of the view to allow users to easily navigate the website. 

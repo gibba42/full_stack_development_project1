@@ -104,7 +104,7 @@ body {
 }
 
 /* Nav bar */
-nav {
+.site-nav {
     background-color: var(--hungary-red);
     color: var(--hungary-white);
     padding: 10px;
@@ -117,24 +117,31 @@ nav {
     align-items: center
 }
 
-nav a {
-    display: block;
-    padding: 1em;
+.site-nav .nav-links {
+    display: flex;
+    gap: 10px;
+}
+
+.site-nav .nav-links a {
     color: var(--hungary-white);
     text-decoration: none;
-    margin: 0 15px;
-    font-weight: 600;
-    transition: background-color 0.3s;
+    padding: 0.5em 0.75em;
 }
 
-nav a:hover {
+.site-nav .nav-links a.active {
     background-color: var(--hungary-white);
     color: var(--hungary-red);
+    border-radius: 4px;
 }
 
-nav a.active {
-    background-color: var(--hungary-white);
-    color: var(--hungary-red);
+/* Hide the burger menu on desktop */
+.site-nav .nav-toggle {
+    display: none;
+}
+
+.site-nav .nav-toggle-label,
+.site-nav .nav-current {
+    display: none;
 }
 
 /* Expanding link strip */
@@ -449,18 +456,46 @@ iframe {
         padding: 0 15px;
     }
 
-    /* Change nav to multi-row bar */
-    nav {
+    /* Change nav to burger menu */
+    .site-nav {
+        justify-content: space-between;
         flex-wrap: wrap;
-        justify-content: center;
+        padding: 8px 12px;
+        font-size: 0.9rem;
     }
 
-    nav a {
-        flex: 1 1 50%;
+    .site-nav .nav-toggle-label,
+    .site-nav .nav-current {
+        display: inline-flex;
+        align-items: center;
+    }
+
+    .site-nav .nav-toggle-label {
+        font-size: 1.6rem;
+        cursor: pointer;
+        padding: 4px 6px;
+    }
+
+    .site-nav .nav-current {
+        font-weight: 700;
+    }
+
+    /* Hide links on mobile */
+    .site-nav .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 8px;
+    }
+
+    .site-nav .nav-links a {
         text-align: center;
-        margin: 2px 0;
         padding: 0.6em 0.3em;
-        font-size: 0.8rem;
+        border-top: 1px solid rgba(255,255,255,0.2);
+    }
+
+    .site-nav .nav-toggle:checked ~ .nav-links {
+        display: flex;
     }
     
     .hero {
