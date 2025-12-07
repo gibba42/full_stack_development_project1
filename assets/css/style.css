@@ -433,3 +433,44 @@ iframe {
         padding: 0 5px;
     }
 }
+
+/* Sizing for smaller (mobile) screens */
+@media (max-width: 768px) {
+    body {
+        font-size: 0.9rem;
+    }
+
+    .content {
+        padding: 0 15px;
+    }
+
+    /* Change nav to multi-row bar */
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav a {
+        flex: 1 1 50%;
+        text-align: center;
+        margin: 2px 0;
+        padding: 0.6em 0.3em;
+        font-size: 0.8rem;
+    }
+    
+    .hero {
+        height: 45vh;
+    }
+
+    .hero-content {
+        padding: 10px;
+    }
+
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+}
