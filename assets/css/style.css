@@ -404,7 +404,7 @@ iframe {
     border: 0;
 }
 
-/* Resize for mobile screens */
+/* Resize for smaller laptop screens */
 @media (max-width: 1024px)
     {
     .content{
@@ -477,5 +477,29 @@ iframe {
 
     .hero p {
         font-size: 1rem;
+    }
+
+    .expanding-links {
+        flex-direction: column;
+        max-width: 600px;
+        padding: 0 10px;
+    }
+
+    .expanding-links .tile {
+        flex: 1 1 auto;
+        min-height: 140px;
+    }
+
+    .expanding-links:hover .tile,
+    .expanding-links:hover .tile:hover,
+    .expanding-links .tile:focus {
+        flex-grow: 1;
+    }
+
+    .expanding-links .tile .more {
+        opacity: 1;
+        max-height: none;
+        max-width: 100%;
+        overflow: visible;
     }
 }
