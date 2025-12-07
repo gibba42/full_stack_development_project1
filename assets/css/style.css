@@ -522,4 +522,9 @@ iframe {
         left: 0;
         right: auto;
     }
+
+    /* Sixteen points */
+    .points-layout {
+        grid-template-columns: 1fr;
+    }
 }
