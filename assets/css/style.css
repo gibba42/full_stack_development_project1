@@ -132,6 +132,11 @@ nav a:hover {
     color: var(--hungary-red);
 }
 
+nav a.active {
+    background-color: var(--hungary-white);
+    color: var(--hungary-red);
+}
+
 /* Expanding link strip */
 .expanding-links {
     display: flex;
