@@ -502,4 +502,24 @@ iframe {
         max-width: 100%;
         overflow: visible;
     }
+
+    .timeline::after {
+        left: 15px;
+    }
+
+    .timeline .container {
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 15px;
+        left: 0;
+    }
+
+    .timeline .right {
+        left: 0;
+    }
+
+    .timeline .container::after {
+        left: 0;
+        right: auto;
+    }
 }
