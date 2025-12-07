@@ -121,3 +121,5 @@ One outstanding bug remains unfixed. The video on the aftermath page remainings 
     - The timeline element was heavily based on W3schools "How to create a responsive timeline with CSS" tutorial.
 - Expanding links
     - The expanding tile links on the index page were based on W3schools "CSS Transitions" examples. ChatGPT was used to help combine those examples with text showing on hover and links to other pages. 
+- Burger menu on mobile view
+    - The burger menu is based on the examples found on "alvarotrigo.com/blog/hamburger-menu.css/. ChatGPT was used to help combine these examples with the existing nav element in the site. 
