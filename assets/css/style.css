@@ -464,20 +464,28 @@ iframe {
         font-size: 0.9rem;
     }
 
+    .site-nav .nav-top {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+
     .site-nav .nav-toggle-label,
     .site-nav .nav-current {
         display: inline-flex;
         align-items: center;
+        font-weight: 700;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 80%;
     }
 
     .site-nav .nav-toggle-label {
+        display: inline-flex;
         font-size: 1.6rem;
         cursor: pointer;
-        padding: 4px 6px;
-    }
-
-    .site-nav .nav-current {
-        font-weight: 700;
     }
 
     /* Hide links on mobile */
