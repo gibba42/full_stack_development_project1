@@ -89,7 +89,7 @@ One outstanding bug remains unfixed. The video on the aftermath page remainings 
 All pages and features of the website were manually tested to ensure correct behaviour.
 
 | Feature | Test | Expected Outcome | Result |
-|------|-------------------|--------|
+|------|-----|-------------------|--------|
 | Navigation links | Clicked each navigation link to see which page it would take the user to | Correct pages should load | Passed |
 | Expandable tiles | Hovered over each link to ensure additional text would show | Tiles should expand and show additional text | Passed |
 | External links | Click on each external link | External links should open in new tab | Passed |
