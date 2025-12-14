@@ -86,15 +86,18 @@ One outstanding bug remains unfixed. The video on the aftermath page remainings 
 
 ### Manual Testing
 
-| Test | Expected Outcome | Result |
+All pages and features of the website were manually tested to ensure correct behaviour.
+
+| Feature | Test | Expected Outcome | Result |
 |------|-------------------|--------|
-| Navigation links | Load correct pages | Passed |
-| Expandable tiles | Expand and show additional text | Passed |
-| External links | Open in new tab | Passed |
-| Video playback | Controlled by user | Passed |
-| Timeline | Alternates correctly | Passed |
-| Collapsible “Sixteen Points” | Expands smoothly | Passed |
-| Google Maps iframe | Shows points of interest | Passed |
+| Navigation links | Clicked each navigation link to see which page it would take the user to | Correct pages should load | Passed |
+| Expandable tiles | Hovered over each link to ensure additional text would show | Tiles should expand and show additional text | Passed |
+| External links | Click on each external link | External links should open in new tab | Passed |
+| Video playback | Load page with videos to ensure videos do not auto-play. Click play controls to ensure video plays properly | Video should not auto-play, and users should be able to control playback | Passed |
+| Timeline | Scroll through timeline to ensure elements alternate from left to right | Timeline elements should alternate correctly | Passed |
+| Collapsible “Sixteen Points” | Click each point to ensure they expand | Points should load compressed and expand smoothly when clicked | Passed |
+| Google Maps iframe | Ensure that the Google Maps iframe shows the custom map with points of interest | Map should show points of interest | Passed |
+| Responsiveness | View the pages in mobile view to ensure elements resize accordingly | Pages should be clear and all elements should resize to suit mobile devices | Passed |
 
 ### Validator Testing
 
